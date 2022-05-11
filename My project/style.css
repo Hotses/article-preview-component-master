@@ -1,0 +1,43 @@
+* {
+    padding: 1;
+    margin: 1;
+    box-sizing: border-box;
+    background-color: beige;
+    font-family: 'inter', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: url(images/pattern-curve.svg), url(images/pattern-bg.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left, right 1vw bottom 5vh;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: 3px 3px yellowgreen;
+}
+
+label {
+    font-size: 1rem;
+    text-align: center;
+    line-height: 2;
+    font-weight: 700;
+}
+
+input {
+    margin-bottom: 2rem;
+}
+
+button {
+    margin-top: 2rem;
+}
+
+.links {
+    text-align: center;
+}
+
+select {
+    margin-bottom: 2rem;
+}
